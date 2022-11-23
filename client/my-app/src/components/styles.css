@@ -1,0 +1,73 @@
+body {
+    background-color: #d9edff;
+    text-align: center;
+}
+
+h1 {
+    font-family: cursive;
+  font-size: 25px;
+  letter-spacing: -2px;
+  color:#3c4043
+}
+
+button {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #f5e2f5 5%, #cc99cc 100%);
+	background-color:#f5e2f5;
+	border-radius:15px;
+	border:1px solid #f0cef0;
+	display:inline-block;
+	cursor:pointer;
+	color:#13434f;
+    font-family: system-ui;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #f5e7f0;
+    text-align: center;
+    margin: 5px;
+    margin-top: 30px;
+}
+button:hover {
+	background:linear-gradient(to bottom, #cc99cc 5%, #f5e2f5 100%);
+	background-color:#cc99cc;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+input{
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform,opacity;
+    z-index: 0;
+    margin: 5px;
+}
